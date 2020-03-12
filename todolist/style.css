@@ -1,0 +1,232 @@
+body {
+    background-image: url(todo_list.jpg);
+    background-color: black;
+    display: grid;
+  
+   }
+input{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    color: black;
+    font-size: 17px;
+    outline: none;
+    margin: 15px;
+
+}
+
+.btn{
+    
+    font-family: cursive; 
+    font-size: 15px;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+
+}
+.Alla{
+    margin: 3%;
+}
+
+.Arbete{
+    margin: 3%;
+}
+.changeDiv{
+    margin:  3%;
+}
+ .mainDiv{
+     margin: 3%;
+} 
+
+
+
+.textarea1{
+        
+     
+   background-color: rgb(253, 248, 241);
+        height: 100px;
+        width: 300px;
+        font-size: 19px;
+        border-radius: 20px;
+        font-family: cursive;
+        color: black;
+        outline: none;    
+     }
+     .textarea2{
+        
+     
+        background-color: rgb(253, 248, 241);
+             height: 100px;
+             width: 300px;
+             font-size: 19px;
+             border-radius: 20px;
+             font-family: cursive;
+             color: black;
+             outline: none;    
+          }
+
+
+.textarea{
+        
+    background-color: rgb(253, 248, 241);
+        height: 100px;
+        width: 300px;
+        font-size: 19px;
+        border-radius: 20px;
+        font-family: cursive;
+        color: black;
+        outline: none;
+  
+        
+     }
+
+.removebtn {
+    height: 30px;
+    width: 30px;
+    font-family: cursive; 
+    font-size: 15px;
+    outline: none;
+    font-weight: bold;
+    background-color: rgb(151, 48, 48);
+    color: antiquewhite;
+    border-radius: 16px;
+   
+ }
+
+
+
+
+
+.edit{
+    height: 30px;
+    width: 30px;
+    font-family: cursive; 
+    font-size: 15px; 
+    outline: none;
+    font-weight: bold;
+    background-color: rgb(151, 48, 48);
+    color: antiquewhite;
+    outline: none; 
+    border-radius: 16px;
+
+ } 
+
+.edit, .removebtn {
+    position: relative;
+    top: -84px;
+    left: -65px;
+    
+} 
+
+.edit2, .removebtn2{
+    position: relative;
+    top: -84px;
+    left: -65px;
+
+    height: 30px;
+    width: 30px;
+    font-family: cursive; 
+    font-size: 15px; 
+    outline: none;
+    font-weight: bold;
+    background-color: rgb(151, 48, 48);
+    color: antiquewhite;
+    outline: none; 
+    border-radius: 16px;
+}
+
+
+
+ .label{
+    font-family: cursive;
+    font-size: 22px;
+    color:black;
+    font-weight: bold;
+}
+
+
+#selecta{
+    width: 150px;
+    background-color: rgb(250, 232, 200);
+    font-family: cursive;
+    font-size: 16px;
+    outline: none;
+    color: black;
+}
+
+.clnTextArea{
+    background-color: rgb(253, 248, 241);
+    height: 100px;
+    width: 300px;
+    font-size: 19px;
+    border-radius: 20px;
+    font-family: cursive;
+    color: black;
+    outline: none;
+
+}
+.clear {
+    position: relative;
+    left: 5%;
+    height: 60px;
+    width: 60px;
+    font-family: cursive; 
+    font-size: 15px; 
+    outline: none;
+    font-weight: bold;
+    background-color: rgb(151, 48, 48);
+    color: antiquewhite;
+    border-radius: 16px;
+}
+
+.date{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(151, 48, 48);
+    color: antiquewhite;
+    outline: none; 
+    border-radius: 16px;
+    
+}
+
+.a{
+    display: none;
+}
+
+.b{
+
+    display: none;
+}
+
+.radiotext{
+     position: relative;
+     left: 70%;
+     top: -150%;
+     font-family: cursive;
+     font-size: 25px;
+     font-weight: bold;
+
+}
+.radioJob{
+    position: relative;
+    left: 70%;
+    top: -140%;
+}
+
+.radiotext2{
+    position: relative;
+     left: 75%;
+     top: -390%;
+     font-family: cursive;
+     font-size: 25px;
+     font-weight: bold;
+
+}
+.radiohus{
+    position: relative;
+    left: 75%;
+    top: -300%;
+}

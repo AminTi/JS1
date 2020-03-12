@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 0.5 1fr 1fr 1fr;
+    grid-template-areas: "paragraph empty img1 img2 aside"
+        "paragraph empty img3 img3 aside";
+    gap: 20px;
+    margin: 5px;
+    padding: 60px;
+    height: 400px;
+
+
+}
+
+.container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.a {
+    grid-area: paragraph;
+    align-self: center;
+
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img4 {
+    grid-area: aside;
+}
+
+/* Section 2 */
+.container2 {
+
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    grid-template-areas: "topleft empyt topright"
+        "topleft empty topright";
+    height: 450px;
+    /* padding: 60px; */
+
+}
+
+.img-article2 {
+    width: 100%;
+    height: 100%;
+    grid-area: topleft;
+    object-fit: cover;
+}
+
+.text-article2 {
+    grid-area: topright;
+    align-self: center;
+    margin-right: 10px;
+}
+
+/* section 3 */
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "pic1 pic2 article article pic3 pic4"
+        "pic1 pic5 article article pic6 pic4"
+        "pic7 pic5  article article pic6 pic8";
+    gap: 10px;
+    height: 500px;
+    padding: 60px;
+
+
+}
+
+.last-article {
+    grid-area: article;
+    margin: -30%;
+    align-self: center;
+    z-index: 1000;
+    background-color: white;
+    text-align: center;
+}
+
+.section-img1 {
+    grid-area: pic1;
+}
+
+.section-img2 {
+    grid-area: pic2;
+}
+
+.section-img3 {
+    grid-area: pic3;
+}
+
+.section-img4 {
+    grid-area: pic4;
+}
+
+.section-img5 {
+    grid-area: pic5;
+}
+
+.section-img6 {
+    grid-area: pic6;
+}
+
+.section-img7 {
+    grid-area: pic7;
+}
+
+.section-img8 {
+    grid-area: pic8;
+}
+
+.container3 img {
+    width: 100%;
+    height: 100%;
+
+}

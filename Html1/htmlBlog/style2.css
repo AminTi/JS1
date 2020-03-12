@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(white, whitesmoke, wheat);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+.ul1>li,
+a {
+    position: relative;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+input {
+    margin-top: 2%;
+    width: 200px;
+    height: 30px;
+
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.emailInput {
+    position: relative;
+    left: 2%;
+}
+
+textarea {
+    width: 40%;
+    height: 30%;
+
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+button {
+    border-radius: 30%;
+    width: 15%;
+    height: 30;
+
+    left: 15%;
+    font-family: cursive;
+
+}
+
+label {
+    font-family: cursive;
+
+
+}
